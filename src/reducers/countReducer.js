@@ -5,6 +5,7 @@ function countReducer(state = 0, action) {
     case 'DECREMENT_COUNT':
       return state - 1;
     default:
+      console.log(state)
       return state;
   }
 }
